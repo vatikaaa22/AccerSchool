@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLING -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- ICON -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <nav class="w-full bg-[#3468C0] flex items-center justify-between px-4 py-3 text-white font-semibold shadow-lg fixed">
+      <!-- logo -->
+      <span class="flex items-center">
+        <h1 class="px-5"><img src="logo.png" width="50px" class="rounded-full" alt="..."></h1>
+        <!-- <p class="text-bold">Accer High School</p> -->
+      </span>
+      <!-- end logo -->
+      <!-- nav content -->
+      <ul class="flex gap-4">
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out">Beranda</li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out">Tentang Sekolah</li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out">Peraturan Sekolah</li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out">Fasilitas & Seragam</li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out">Berita</li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out">Info Pembayaran</li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out">Hubungi Kami</li>
+        <!-- <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out flex gap-1">
+          <p class="flex items-center justify-center">Tentang Sekolah</p>
+        </li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out flex gap-1">
+          <p class="flex items-center justify-center">Jadwal Akademik</p>
+        </li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out flex gap-1">
+          <p class="flex items-center justify-center">Ekskul</p>
+        </li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out flex gap-1">
+          <p class="flex items-center justify-center">Event</p>
+        </li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out flex gap-1">
+          <p class="flex items-center justify-center">Info Pembayaran</p>
+        </li>
+        <li class="border border-transparent px-2 py-1 rounded-lg cursor-pointer hover:bg-white hover:text-[#5356FF] duration-300 transition ease-in-out flex gap-1">
+          <p class="flex items-center justify-center">Peraturan Sekolah</p>
+        </li> -->
+      </ul>
+      <!-- end nav content -->
+      <!-- login -->
+      <div class="flex gap-2">
+        <button class="px-2 py-1 border border-white rounded-md flex items-center justify-center gap-1 hover:bg-[#86A7FC] duration-300 transition ease-in-out">
+          <span class="flex items-center justify-center"><i class="bx bx-user"></i></span> Login
+        </button>
+        <!-- <button class="px-2 py-1 border border-white rounded-md flex items-center justify-center gap-1 hover:bg-[#86A7FC] duration-300 transition ease-in-out">Sign Up</button> -->
+      </div>
+    </nav>
+    <!-- content -->
+    <main class="w-full pt-[57px]">
+      <div class="h-[75vh] flex items-center gambar">
+        <div class="flex items-start flex-col px-10 justify-center gap-2">
+          <h1 class="text-white px-2 py-2 rounded-md bg-[#86A7FC] font-semibold text-xs">Selamat Datang di Website</h1>
+          <h1 class="text-white text-5xl"><b>Accer High School</b></h1>
+          <h1 class="text-white text-xl"><i>Alamat</i></h1>
+        </div>
+      </div>
+      <!-- icon -->
+      <div class="bg-[#347CC0] h-[20vh] w-full flex items-center justify-center gap-20">
+        <div class="flex flex-col gap-1 items-center justify-center" aos-data="'fade-up">
+          <div class="w-[5rem] h-[5rem] rounded-full bg-white hover:bg-[#86A7FC] transition duration-300 ease-in-out cursor-pointer flex items-center justify-center hover:text-white">
+          <i class='bx bx-sitemap text-[2rem]'></i>
+          </div>
+          <h1 class="text-white font-semibold">Struktur</h1>
+        </div>
+        <div class="flex flex-col gap-1 items-center justify-center" aos-data="'fade-up">
+          <div class="w-[5rem] h-[5rem] rounded-full bg-white hover:bg-[#86A7FC] transition duration-300 ease-in-out cursor-pointer flex items-center justify-center hover:text-white">
+            <i class='bx bx-party text-[2rem]'></i>
+          </div>
+          <h1 class="text-white font-semibold">Event</h1>
+        </div>
+        <div class="flex flex-col gap-1 items-center justify-center" aos-data="'fade-up">
+          <div class="w-[5rem] h-[5rem] rounded-full bg-white hover:bg-[#86A7FC] transition duration-300 ease-in-out cursor-pointer flex items-center justify-center hover:text-white">
+            <i class='bx bx-group text-[2rem]'></i>
+          </div>
+          <h1 class="text-white font-semibold">Ekskul</h1>
+        </div>
+      </div>
+      <!-- end icon -->
+    </main>
+    <!-- end main -->
+    <!-- footer -->
+    <footer class="w-full bg-[#3468C0] flex flex-col text-gray-300">
+      <!-- FOOTER TOP -->
+      <div class="flex items-start justify-center py-3 gap-10">
+        <!-- CONTENT -->
+        <div class="grid gap-1 w-1/4">
+          <h1 class="font-bold text-xl">Connect</h1>
+          <p class="ps-2">Far far away, behind the word mountains, far from the countries.</p>
+        </div>
+
+        <!-- CONTENT 2 -->
+        <div class="grid gap-1 w-1/4">
+          <h1 class="font-bold text-xl">Contact</h1>
+          <ul class="ps-2">
+            <li class="flex gap-2">
+              <span><i class="bx bx-map"></i></span> <span>Far far away, behind the word mountains, far from the countries.</span>
+            </li>
+            <li class="flex gap-2">
+              <span><i class="bx bx-phone"></i></span> <span>140-122-1029</span>
+            </li>
+            <li class="flex gap-2">
+              <span><i class="bx bx-envelope"></i></span> <span>accerhighschool@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- CONTENT 3 -->
+        <div class="grid gap-1 w-1/4">
+          <h1 class="font-bold text-xl">Content</h1>
+        </div>
+      </div>
+      <!-- END FOOTER TOP -->
+      <hr class="mx-10" />
+
+      <!-- FOOTER BOTTOM -->
+      <small class="text-center">Copyright ©2024 All rights reserved | made by <span class="font-bold text-white">...</span></small>
+      <!-- END FOOTER BOTTOM -->
+    </footer>
+
+    <script>
+      AOS.init({
+        once: false,
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
